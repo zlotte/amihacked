@@ -1,0 +1,27 @@
+body{
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+#dataForm {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+#dataForm > input{
+    font-size: 24px;
+    border: 1px solid #a5a5a5;
+}
+
+#dataForm > button {
+    font-size: 24px;
+}
+
+article {
+    font-size: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+}

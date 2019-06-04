@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="/js/main.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Am I Hacked ?</title>
+</head>
+<body> 
+<div class="container">
+    <h1 class="text-center">Am I Been Hacked ?</h1>
+    <article>
+        <div class="card">
+        <div class="card-body">
+        <small>Check if you have an account that has been leaked at some point with databases
+             from various websites through the years. Below type in your username or e-mail address
+              that you are using or were using in the past.
+        </small>
+        </div>
+        </div>
+    </article>
+    <br>
+    <form method="POST" id="dataForm" class="text-center">
+        <div class="input-group">
+        <input v-model="account" class="form-control" type="text" name="account" id="account" placeholder="Provide username or email">
+        <span class="input-group-append">
+        <button type="submit" class="btn btn-success"><i class="fas fa-search"></i> Search</button>
+        </span>
+        </div>
+    </form>
+    <hr>
+        <div class="results">
+        </div>
+    </div>
+</div>
+</body>
+</html>

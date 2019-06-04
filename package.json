@@ -1,0 +1,22 @@
+{
+  "name": "amihacked",
+  "version": "1.0.0",
+  "description": "Check if you account appears in hacked databases",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "hack",
+    "account"
+  ],
+  "author": "devray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
