@@ -4,6 +4,7 @@
   "description": "Check if you account appears in hacked databases",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [
